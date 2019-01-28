@@ -1,0 +1,168 @@
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Web.dll.config
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Web.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Web.pdb
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Antlr3.Runtime.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\MYOB.AccountRight.SDK.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Newtonsoft.Json.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\RestSharp.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Helpers.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Mvc.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Optimization.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Razor.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\WebGrease.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\MYOB.AccountRight.SDK.pdb
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\MYOB.AccountRight.SDK.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\RestSharp.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Helpers.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Mvc.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Razor.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Optimization.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Newtonsoft.Json.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Antlr3.Runtime.pdb
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\obj\Debug\MYOBWeb.csproj.CoreCompileInputs.cache
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\obj\Debug\MYOBWeb.csproj.CopyComplete
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\obj\Debug\Web.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master\AccountRight_SampleApp_CSharp-master\Web\obj\Debug\Web.pdb
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Web.dll.config
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Web.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Web.pdb
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Antlr3.Runtime.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\MYOB.AccountRight.SDK.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Newtonsoft.Json.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\RestSharp.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Helpers.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Mvc.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Optimization.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Razor.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\WebGrease.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\MYOB.AccountRight.SDK.pdb
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\MYOB.AccountRight.SDK.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\RestSharp.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Helpers.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Mvc.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Razor.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Web.Optimization.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Newtonsoft.Json.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Antlr3.Runtime.pdb
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\obj\Debug\MYOBWeb.csproj.CoreCompileInputs.cache
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\obj\Debug\MYOBWeb.csproj.CopyComplete
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\obj\Debug\Web.dll
+C:\Users\sinkh\Downloads\AccountRight_SampleApp_CSharp-master - Copy\AccountRight_SampleApp_CSharp-master\Web\obj\Debug\Web.pdb
+C:\Users\sinkh\Desktop\Web\bin\Web.dll.config
+C:\Users\sinkh\Desktop\Web\bin\Web.dll
+C:\Users\sinkh\Desktop\Web\bin\Web.pdb
+C:\Users\sinkh\Desktop\Web\bin\DocumentFormat.OpenXml.dll
+C:\Users\sinkh\Desktop\Web\bin\Exportable.dll
+C:\Users\sinkh\Desktop\Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\sinkh\Desktop\Web\bin\Microsoft.Office.Interop.Excel.dll
+C:\Users\sinkh\Desktop\Web\bin\Microsoft.Win32.Primitives.dll
+C:\Users\sinkh\Desktop\Web\bin\Newtonsoft.Json.dll
+C:\Users\sinkh\Desktop\Web\bin\NPOI.dll
+C:\Users\sinkh\Desktop\Web\bin\NPOI.OOXML.dll
+C:\Users\sinkh\Desktop\Web\bin\NPOI.OpenXml4Net.dll
+C:\Users\sinkh\Desktop\Web\bin\NPOI.OpenXmlFormats.dll
+C:\Users\sinkh\Desktop\Web\bin\System.AppContext.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Console.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Globalization.Calendars.dll
+C:\Users\sinkh\Desktop\Web\bin\System.IO.Compression.dll
+C:\Users\sinkh\Desktop\Web\bin\System.IO.Compression.ZipFile.dll
+C:\Users\sinkh\Desktop\Web\bin\System.IO.FileSystem.dll
+C:\Users\sinkh\Desktop\Web\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\sinkh\Desktop\Web\bin\System.IO.Packaging.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Net.Http.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Net.Sockets.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sinkh\Desktop\Web\bin\System.Xml.ReaderWriter.dll
+C:\Users\sinkh\Desktop\Web\bin\WindowsBase.dll
+C:\Users\sinkh\Desktop\Web\bin\Exportable.Resources.dll
+C:\Users\sinkh\Desktop\Web\bin\DocumentFormat.OpenXml.xml
+C:\Users\sinkh\Desktop\Web\bin\Newtonsoft.Json.pdb
+C:\Users\sinkh\Desktop\Web\bin\Newtonsoft.Json.xml
+C:\Users\sinkh\Desktop\Web\bin\NPOI.xml
+C:\Users\sinkh\Desktop\Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\sinkh\Desktop\Web\obj\Debug\MYOBWeb.csproj.CoreCompileInputs.cache
+C:\Users\sinkh\Desktop\Web\obj\Debug\MYOBWeb.csproj.CopyComplete
+C:\Users\sinkh\Desktop\Web\obj\Debug\Web.dll
+C:\Users\sinkh\Desktop\Web\obj\Debug\Web.pdb
+C:\inetpub\wwwroot\Web\bin\Web.dll.config
+C:\inetpub\wwwroot\Web\bin\Web.dll
+C:\inetpub\wwwroot\Web\bin\Web.pdb
+C:\inetpub\wwwroot\Web\bin\DocumentFormat.OpenXml.dll
+C:\inetpub\wwwroot\Web\bin\Exportable.dll
+C:\inetpub\wwwroot\Web\bin\ICSharpCode.SharpZipLib.dll
+C:\inetpub\wwwroot\Web\bin\Microsoft.Office.Interop.Excel.dll
+C:\inetpub\wwwroot\Web\bin\Microsoft.Win32.Primitives.dll
+C:\inetpub\wwwroot\Web\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\Web\bin\NPOI.dll
+C:\inetpub\wwwroot\Web\bin\NPOI.OOXML.dll
+C:\inetpub\wwwroot\Web\bin\NPOI.OpenXml4Net.dll
+C:\inetpub\wwwroot\Web\bin\NPOI.OpenXmlFormats.dll
+C:\inetpub\wwwroot\Web\bin\System.AppContext.dll
+C:\inetpub\wwwroot\Web\bin\System.Console.dll
+C:\inetpub\wwwroot\Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\inetpub\wwwroot\Web\bin\System.Globalization.Calendars.dll
+C:\inetpub\wwwroot\Web\bin\System.IO.Compression.dll
+C:\inetpub\wwwroot\Web\bin\System.IO.Compression.ZipFile.dll
+C:\inetpub\wwwroot\Web\bin\System.IO.FileSystem.dll
+C:\inetpub\wwwroot\Web\bin\System.IO.FileSystem.Primitives.dll
+C:\inetpub\wwwroot\Web\bin\System.IO.Packaging.dll
+C:\inetpub\wwwroot\Web\bin\System.Net.Http.dll
+C:\inetpub\wwwroot\Web\bin\System.Net.Sockets.dll
+C:\inetpub\wwwroot\Web\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\inetpub\wwwroot\Web\bin\System.Security.Cryptography.Algorithms.dll
+C:\inetpub\wwwroot\Web\bin\System.Security.Cryptography.Encoding.dll
+C:\inetpub\wwwroot\Web\bin\System.Security.Cryptography.Primitives.dll
+C:\inetpub\wwwroot\Web\bin\System.Security.Cryptography.X509Certificates.dll
+C:\inetpub\wwwroot\Web\bin\System.Xml.ReaderWriter.dll
+C:\inetpub\wwwroot\Web\bin\WindowsBase.dll
+C:\inetpub\wwwroot\Web\bin\Exportable.Resources.dll
+C:\inetpub\wwwroot\Web\bin\DocumentFormat.OpenXml.xml
+C:\inetpub\wwwroot\Web\bin\Newtonsoft.Json.pdb
+C:\inetpub\wwwroot\Web\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\Web\bin\NPOI.xml
+C:\inetpub\wwwroot\Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\inetpub\wwwroot\Web\obj\Debug\MYOBWeb.csproj.CoreCompileInputs.cache
+C:\inetpub\wwwroot\Web\obj\Debug\MYOBWeb.csproj.CopyComplete
+C:\inetpub\wwwroot\Web\obj\Debug\Web.dll
+C:\inetpub\wwwroot\Web\obj\Debug\Web.pdb

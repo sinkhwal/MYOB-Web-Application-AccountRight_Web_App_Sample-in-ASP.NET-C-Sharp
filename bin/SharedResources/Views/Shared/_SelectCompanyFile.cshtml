@@ -1,0 +1,403 @@
+﻿<!--//  File:        _SelectCompanyFile.cshtml
+//  Copyright:   Copyright 2012 MYOB Technology Pty Ltd. All rights reserved.
+//  Website:     http://www.myob.com
+//  Author:      MYOB
+//  E-mail:      info@myob.com
+//
+//Documentation, code and sample applications provided by MYOB Australia are for 
+//information purposes only. MYOB Technology Pty Ltd and its suppliers make no 
+//warranties, either express or implied, in this document. 
+//
+//Information in this document or code, including website references, is subject
+//to change without notice. Unless otherwise noted, the example companies, 
+//organisations, products, domain names, email addresses, people, places, and 
+//events are fictitious. 
+//
+//The entire risk of the use of this documentation or code remains with the user. 
+//Complying with all applicable copyright laws is the responsibility of the user. 
+//
+//Copyright 2012 MYOB Technology Pty Ltd. All rights reserved.
+-->
+<div id="selectCompanyFile" title="Library Browser" style="display:none" >
+    <div class="tabbable">
+        <ul class="nav nav-tabs" id="libraryBrowserTabs">
+            <li id="tabCloud" class="active"><a href="#tabCloudPane" data-toggle="tab" ><img style="width: 31px" src="@Url.Content("~/Content/themes/common/images/cloud.png")"/> Cloud</a></li>
+            <li id="tabNetwork"><a href="#tabNetworkPane" data-toggle="tab"><img style="width: 31px" src="@Url.Content("~/Content/themes/common/images/network.png")"/> Network</a></li>
+        </ul>
+    </div>
+    
+    <div class="tab-content">
+        <div class="tab-pane active" id="tabCloudPane">
+            <div class="form-horizontal">
+                <div class="accordion" id="oauthSetting">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#oauthSetting" href="#oauthSettingContent">
+                                <strong>Setting</strong>
+                            </a>
+                        </div>
+                        <div id="oauthSettingContent" class="accordion-body collapse">
+                            <div class="control-group">
+                                <label class="control-label" for="txtAuthorizationUri">Authorize Uri</label>
+                                <div class="controls">
+                                    <input type="text" id="txtAuthorizationUri" class="span5" />
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="txtTokenUri">Token Uri</label>
+                                <div class="controls"><input type="text" id="txtTokenUri" class="span5" />
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="txtKey">Key</label>
+                                <div class="controls"><input type="text" id="txtKey" class="span5" />
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="txtSecret">Secret</label>
+                                <div class="controls"><input type="text" id="txtSecret" class="span5" />
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="txtRedirectUri">Redirect Uri</label>
+                                <div class="controls"><input type="text" id="txtRedirectUri" class="span5" />
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="txtScope">Scope</label>
+                                <div class="controls"><input type="text" id="txtScope" class="span5" />
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="txtAccessToken"><a href="#" id="lnkAccessToken" class="btn-link" rel="tooltip" title="Token info">Access Token</a></label>
+                                <div class="controls"><input type="text" id="txtAccessToken" class="span5" readonly="readonly" />
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="txtRefreshToken">Refresh Token</label>
+                                <div class="controls"><input type="text" id="txtRefreshToken" class="span5" readonly="readonly" />
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="txtCloudApi">Cloud Api</label>
+                                <div class="controls"><input type="text" id="txtCloudApi" class="span5" />
+                                </div>
+                            </div>
+                            <div class="control-group pull-right" style="padding-right: 20px">
+                                <button type="button" class="btn btn-primary" id="btnOAuthAuthrorize">Authenticate <i class="icon-lock"></i></button>
+                                <button type="button" class="btn btn-success" id="btnOAuthRefreshToken">Refresh Token <i class="icon-refresh"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @Html.Partial("_CompanyList")
+            </div>
+        </div>
+        <div class="tab-pane" id="tabNetworkPane">
+            <div class="accordion" id="networkSetting">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#networkSetting" href="#networkSettinggContent">
+                            <strong>Setting</strong>
+                        </a>
+                    </div>
+                    <div id="networkSettinggContent" class="accordion-body collapse in">
+                        <form class="form-horizontal">
+                            <div class="control-group">
+                                <label class="control-label" for="txtNetworkApi">Api Url</label>
+                                <div class="controls">
+                                    <input type="text" id="txtNetworkApi" class="span4" /><button type="button" id="btnChangeApi" value="Search" class="btn"><i class="icon-refresh"></i></button>
+                                </div> 
+                                
+                            
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            @Html.Partial("_CompanyList")
+        </div>
+    </div>
+</div>
+<script>
+
+    function showSelectCompany() {
+        $("#selectCompanyFile").dialog({
+            modal: true,
+            show: "blind",
+            hide: "explode",
+            duration: "slow",
+            width: 700,
+            height: 700,
+            resizable: false,
+            closeOnEscape: false,
+            open: function (event, ui) {
+                $(".ui-dialog-titlebar-close", $(this).parent()).hide();
+            }
+        });
+
+    }
+
+    $(function () {
+        @{
+            var controller = (ViewContext.Controller as CSharpSamples.Common.ControllerBase);
+            var oauthInfo = controller.OAuthInformation;
+          }
+
+        $('#txtAuthorizationUri').val('@oauthInfo.AuthorizationUrl');
+        $("#txtTokenUri").val('@oauthInfo.TokenUrl');
+        $("#txtKey").val('@oauthInfo.Key');
+        $("#txtSecret").val('@oauthInfo.Secret');
+        $("#txtRedirectUri").val('@oauthInfo.RedirectUri');
+        $("#txtScope").val('@oauthInfo.Scope');
+        $("#txtAccessToken").val('@oauthInfo.AccessToken');
+        $("#txtRefreshToken").val('@oauthInfo.RefreshToken');
+        $("#txtCloudApi").val('@controller.CloudApi');
+        $("#txtNetworkApi").val('@controller.NetworkApi');
+
+        var additionalTokenInfo = "Expires in '" + '@oauthInfo.ExpiresIn' + "' and token type is '" + '@oauthInfo.TokenType' + "'";
+
+        $("#lnkAccessToken").attr('title', additionalTokenInfo);
+        $("#lnkAccessToken").tooltip({ placement: 'top' });
+
+        if ($.trim($("#txtAccessToken").val()) == '' || $("#txtAccessToken").val().indexOf("error=") > -1) {
+            if ($("#oauthSettingContent").hasClass("in") == false) {
+                $("#oauthSettingContent").addClass("in");
+            }
+        }
+        else if ('@controller.IsLogon' == 'False') {
+            searchCompany();
+        }
+
+        $("#btnOAuthRefreshToken").click(function (event) {
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("RefreshToken")',
+                dataType: 'json',
+                contentType: 'application/json; charset=utf-8'
+            }).done(function (data) {
+                $("#txtAccessToken").val(data.AccessToken);
+                $("#txtRefreshToken").val(data.RefreshToken);
+
+                if (data.Token) {
+                    var additionalTokenInfo = "Expires in '" + data.ExpiresIn + "' and token type is '" + data.TokenType + "'";
+
+                    $("#lnkAccessToken").attr('title', additionalTokenInfo);
+                }
+            });
+        });
+
+        $("#btnChangeApi").click(function (event) {
+            resetSearchCompany();
+        });
+
+        $("#txtNetworkApi").keydown(function (event) {
+            if (event.which == 13) {
+                $("#btnChangeApi").trigger('click');
+            }
+        });
+
+        $("#btnOAuthAuthrorize").click(function (event) {
+            $.ajax({
+                type: 'POST',
+                url: "@Url.Action("SetOAuthInfo", "LibraryBrowser")",
+                dataType: 'json',
+                data: JSON.stringify({
+                    authorizationUri: $('#txtAuthorizationUri').val(),
+                    tokenUri: $("#txtTokenUri").val(),
+                    key: $("#txtKey").val(),
+                    secret: $("#txtSecret").val(),
+                    redirectUri: $("#txtRedirectUri").val(),
+                    scope: $("#txtScope").val(),
+                    cloudApi: $("#txtCloudApi").val()
+                }),
+                contentType: 'application/json; charset=utf-8'
+            }).success(function () {
+                window.location.replace("@Url.Action("CallOAuthAuthentication", "LibraryBrowser")");
+            });
+
+            return false;
+        });
+        $(document).on('click', "#btnSearch", function (event) {
+            searchCompany();
+        });
+
+        $(document).on('click', "#btnResetSearch", function (event) {
+            resetSearchCompany();
+        });
+        $(document).on('click', 'button[name="btnOrderBy"]', function (event) {
+            companiesOrderBy($(this));
+        });
+        function bindCompanyList(companies, listContainer) {
+            var companyList = listContainer.find(".companyList");
+            companyList.accordion("destroy");
+            companyList.empty();
+            var companyCount = 0;
+            $.each(companies, function (i, company) {
+                var companyRow = '<h3><a href="#">'
+                    + company.Name + ' (' + company.ProductVersion + ')'
+                    + '<br \>'
+                    + '<small><em>Path: ' + company.LibraryPath + '</em></small>'
+                    + '</a></h3>'
+                    // content
+                    + '<div style="overflow-x:hidden">'
+                    + '<span class="label label-info">Uri: ' + company.Uri + '</span>'
+                    + '<br \>' + '<br \>'
+                    + '<form class="form-inline" id="loginForm">'
+                    + '<input type="hidden" id="companyId" value=\'' + company.Id + '\'></input>'
+                    + '<input type="hidden" id="companyName" value=\'' + company.Name + '\'></input>'
+                    + '<input type="hidden" id="libraryPath" value=\'' + company.LibraryPath + '\'></input>'
+                    + '<input type="hidden" id="productVersion" value=\'' + company.ProductVersion + '\'></input>'
+                    + '<input type="hidden" id="companyUri" value=\'' + company.Uri + '\'></input>'
+                    + '<input type="hidden" id="isCloud" value=\'' + company.IsCloud + '\'></input>'
+                    + '<button type="button" class="btn disabled"><i class="icon-user"></i></button>'
+                    + '<input type="text" id="txtUserId" class="input-medium" placeholder="User Id" value="Administrator">'
+                    + '<button type="button" class="btn disabled"><i class="icon-lock"></i></button>'
+                    + '<input type="password" id="txtPassword" class="input-medium" placeholder="Password">'
+                    + '<button type="button" id="btnLogIn" class="btn btn-primary">Go</button>'
+                    + '</form>'
+                    + '</div>';
+                $(companyRow).appendTo(companyList);
+                companyCount++;
+            });
+
+            listContainer.find("label[name='lblNoOfCompanies']").text(companyCount.toString() + " company file(s) found");
+            listContainer.css("display", "");
+            companyList.accordion({
+                active: false,
+                collapsible: true,
+                autoHeight: false,
+                icons: false
+            });
+        }
+
+        $("#btnLogIn").live('click', function (event) {
+            var loginForm = $(this).closest("#loginForm");
+            var userId = loginForm.children("#txtUserId").val();
+            var password = loginForm.children("#txtPassword").val();
+            var companyId = loginForm.children("#companyId").val();
+
+            var selectedCompany = {
+                Id: loginForm.children("#companyId").val(),
+                Name: loginForm.children("#companyName").val(),
+                LibraryPath: loginForm.children("#libraryPath").val(),
+                ProductVersion: loginForm.children("#productVersion").val(),
+                Uri: loginForm.children("#companyUri").val(),
+                IsCloud: loginForm.children("#isCloud").val()
+            };
+
+            $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                url: "@Url.Action("CompanyLogon", "LibraryBrowser")",
+                data: JSON.stringify({ companyFile: selectedCompany, userId: userId, password: password }),
+                contentType: 'application/json; charset=utf-8'
+            }).done(function (data) {
+                if (data.ok == false) {
+                    showMessageBox("Log In", data.message)
+                } else {
+                    location.reload();
+                }
+            });
+
+        });
+
+        function resetSearchCompany() {
+            var activeTabContent = getActiveTabBrowser();
+            activeTabContent.searchInput.val('');
+            activeTabContent.orderButton.html($("#lnkOrderByName").text());
+            companiesOrderField = "Name";
+            searchCompany();
+        };
+
+        function getActiveTabBrowser() {
+            var activeTab = $("ul#libraryBrowserTabs li.active");
+            var isCloud = activeTab.attr("id") == "tabCloud";
+            var apiUrl = isCloud == true ? $("#txtCloudApi").val() : $("#txtNetworkApi").val();
+            var activeTabPane = isCloud == true ? $("#tabCloudPane") : $("#tabNetworkPane");
+            var searchInput = activeTabPane.find("input[name='companySearch']");
+            var companyListContainer = activeTabPane.find(".companyListContainer");
+            var orderBtn = activeTabPane.find("button[name='btnOrderBy']");
+
+            return {
+                isCloud: isCloud,
+                apiUrl: apiUrl,
+                tabPane: activeTabPane,
+                searchText: searchInput.val(),
+                searchInput: searchInput,
+                orderButton: orderBtn,
+                listContainer: companyListContainer
+            };
+        }
+
+        function searchCompany() {
+
+            var activeTabContent = getActiveTabBrowser();
+            var sorting = {
+                Field: companiesOrderField,
+                Direction: companiesOrderDirection
+            };
+
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("Search", "LibraryBrowser")',
+                dataType: 'json',
+                data: JSON.stringify({ search: activeTabContent.searchText, sort: sorting, webApiUrl: activeTabContent.apiUrl, isCloud: activeTabContent.isCloud }),
+                contentType: 'application/json; charset=utf-8'
+            }).error(function (jqXHR, textStatus, errorThrown) {
+                showMessageBox("Company List", "Failed to open company files.", null);
+            }).done(function (output) {
+                if (output != null) {
+                    bindCompanyList(output, activeTabContent.listContainer);
+
+                    if (activeTabContent.isCloud) {
+                        if ($("#oauthSettingContent").hasClass("in")) {
+                            $("#oauthSettingContent").removeClass("in");
+                        }
+                    }
+                    else {
+                        if ($("#networkSettinggContent").hasClass("in")) {
+                            $("#networkSettinggContent").removeClass("in");
+                        }
+                    }
+                }
+            });
+
+        };
+        $(document).on('click', '#lnkOrderByName', function (event) {
+            changeOrderField($(this), "Name");
+        });
+
+        $(document).on('click', '#lnkOrderByPath', function (event) {
+            changeOrderField($(this), "LibraryPath");
+        });
+
+        $(document).on('click', '#lnkOrderByVersion', function (event) {
+            changeOrderField($(this), "ProductVersion");
+        });
+
+        var companiesOrderDirection = 0;
+        var companiesOrderField = "Name";
+
+        function changeOrderField(orderLink, field) {
+            var activeTabContent = getActiveTabBrowser();
+            companiesOrderField = field;
+            activeTabContent.orderButton.text(orderLink.text());
+            companiesOrderBy(activeTabContent.orderButton);
+        }
+
+        function updateOrderImg(orderButton) {
+            var img = '<i class="icon-chevron-down"></i>';
+            if (companiesOrderDirection == 'asc') {
+                img = '<i class="icon-chevron-up"></i>';
+            }
+            orderButton.html(img + ' ' + orderButton.text());
+        }
+
+        function companiesOrderBy(orderButton) {
+            companiesOrderDirection = companiesOrderDirection == 'asc' ? 'desc' : 'asc';
+            updateOrderImg(orderButton);
+            searchCompany();
+        }
+    });
+</script>

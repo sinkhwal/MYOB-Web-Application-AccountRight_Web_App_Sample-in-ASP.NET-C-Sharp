@@ -1,0 +1,24 @@
+﻿<div class="companyListContainer" style="display:none">
+    <div id="searchContainer" class="form-inline">
+        <input type="text" name="companySearch" class="span4" value="" />
+        <button type="button" id="btnSearch" value="Search" class="btn"><i class="icon-search"></i></button>
+        <button type="button" id="btnResetSearch" value="Search" class="btn"><i class="icon-remove"></i></button>
+        
+        <div id="companySort" class="btn-group pull-right">
+            <button class="btn btn-medium" name="btnOrderBy" style="width:100px">Name</button>
+            <button class="btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" style="width:100px">
+                <li><a href="#" id="lnkOrderByName">Name</a></li>
+                <li><a href="#" id="lnkOrderByVersion">Version</a></li>
+                <li><a href="#" id="lnkOrderByPath">Path</a></li>
+            </ul>
+        </div>
+    </div>
+    <br />
+    <label name="lblNoOfCompanies">of company files found:</label>
+    <div name="companyListContent" style="max-height: 450px;overflow: auto;">
+        <div class="companyList"></div>
+    </div>
+</div>
