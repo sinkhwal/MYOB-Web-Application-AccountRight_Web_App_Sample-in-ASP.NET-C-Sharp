@@ -1,4 +1,4 @@
-# MYOB AccountRight_WebApp_Sample-in-ASP.NET-C-Sharp
+# MYOB Web Application AccountRight Sample in ASP.NET C#
 Web application developed in asp.net c# to for reporting and automatic backup purpose for company file in myob cloud.
 
 
