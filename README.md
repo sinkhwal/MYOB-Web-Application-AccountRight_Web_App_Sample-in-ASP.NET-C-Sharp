@@ -22,8 +22,13 @@ ASP.Net sample app demonstrating accessing the AccountRight Live API using the S
 * Get Developer key and Developer Secret key for your account from developer section from account. For more detail go to 
 [this page](http://developer.myob.com/api/accountright/api-overview/getting-started/)
 * Update developer key and Developer Secret key and CallBackUrl from there in webconfig in this project.
+<img src="/Images/webconfig.PNG" alt="My cool logo"/>
 * then compile and run. 
-* It will first ask for Username, Password of provide it. It will send you passkey to email, enter that key to two way authentication page. Then you are all set. It will take you to company listing with that account. Put user name and password for that company.. it wil take you to search page where you can search Purchase, Sales, Profit and Loss etc. 
+* It will first ask for Username, Password of provide it. It will send you passkey to email, enter that key to two way authentication page. Then you are all set. 
+* It will take you to company listing with that account. Put user name and password for that company.
+<img src="/Images/companylogin.png" alt="company logim"/>. 
+* it wil take you to search page where you can search Purchase, Sales, Profit and Loss etc. 
+<img src="/Images/search.png" alt="search"/>
 * For automatic backup you have to create windows task which open browser with url http://localhost/Web/AutoBackup as parameter. You can put some triggers which will create backup files in excel format.
 
 **Happy Coding!!!**
