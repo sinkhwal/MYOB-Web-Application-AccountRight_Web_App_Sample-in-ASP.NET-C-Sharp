@@ -1,1 +1,98 @@
-<h1>Hero</h1>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>MYOB Web Application AccountRight Sample in ASP.NET C# | MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="MYOB Web Application AccountRight Sample in ASP.NET C#" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Web application developed in asp.net c# to for reporting and automatic backup purpose for company file in myob cloud." />
+<meta property="og:description" content="Web application developed in asp.net c# to for reporting and automatic backup purpose for company file in myob cloud." />
+<link rel="canonical" href="https://sinkhwal.github.io/MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp/" />
+<meta property="og:url" content="https://sinkhwal.github.io/MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp/" />
+<meta property="og:site_name" content="MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp" />
+<script type="application/ld+json">
+{"headline":"MYOB Web Application AccountRight Sample in ASP.NET C#","@type":"WebSite","url":"https://sinkhwal.github.io/MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp/","name":"MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp","description":"Web application developed in asp.net c# to for reporting and automatic backup purpose for company file in myob cloud.","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp/assets/css/style.css?v=5b9e8f905cb5eca1c635dd6d88210afb6147d246">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="https://sinkhwal.github.io/MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp/">MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp</a></h1>
+        
+        
+
+        <p>Web application developed in asp.net c# to for reporting and automatic backup purpose for company file in myob cloud.</p>
+
+        
+        <p class="view"><a href="https://github.com/sinkhwal/MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp">View the Project on GitHub <small>sinkhwal/MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h1 id="myob-web-application-accountright-sample-in-aspnet-c">MYOB Web Application AccountRight Sample in ASP.NET C#</h1>
+<p>Web application developed in asp.net c# to for reporting and automatic backup purpose for company file in myob cloud.</p>
+
+<h2 id="c-net-sample-web-app">C# .Net Sample Web App</h2>
+<p>ASP.Net sample app demonstrating accessing the AccountRight Live API using the SDK in c#.</p>
+
+<h3 id="accountright-api---cnet-web-application">AccountRight API - C#.Net Web Application</h3>
+<ul>
+  <li>Uses the new .Net SDK</li>
+  <li>Navigates available files on cloud server</li>
+  <li>Manages OAuth login (note: SDK manages refreshing of tokens!)</li>
+  <li>Demonstrates use of paging and filtering through listing of Purchase order Sales, Profit and loss, and balance sheets.</li>
+  <li>Gives automatic backup of purchase order and sales report of definite period of time which we can configure in webconfig.</li>
+</ul>
+
+<h3 id="requirements">Requirements</h3>
+<ul>
+  <li>Visual Studio</li>
+  <li>MYOBApi developer key and secret (To access cloud server)</li>
+</ul>
+
+<h3 id="getting-up-and-running">Getting up and running</h3>
+<ul>
+  <li>Unzip source code to a local folder and open the solution file.</li>
+  <li>Restore Nuget Packages,</li>
+  <li>Get Developer key and Developer Secret key for your account from developer section from account. For more detail go to 
+<a href="http://developer.myob.com/api/accountright/api-overview/getting-started/">this page</a></li>
+  <li>Update developer key and Developer Secret key and CallBackUrl from there in webconfig in this project.
+<img src="/Images/webconfig.PNG" alt="My cool logo" /></li>
+  <li>then compile and run.</li>
+  <li>It will first ask for Username, Password of provide it. It will send you passkey to email, enter that key to two way authentication page. Then you are all set.</li>
+  <li>It will take you to company listing with that account. Put user name and password for that company.
+<img src="/Images/companylogin.png" alt="company logim" />.</li>
+  <li>it wil take you to search page where you can search Purchase, Sales, Profit and Loss etc. 
+<img src="/Images/search.png" alt="search" /></li>
+  <li>For automatic backup you have to create windows task which open browser with url http://localhost/Web/AutoBackup as parameter. You can put some triggers which will create backup files in excel format.</li>
+</ul>
+
+<p><strong>Happy Coding!!!</strong></p>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/sinkhwal">sinkhwal</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/MYOB-Web-Application-AccountRight_Web_App_Sample-in-ASP.NET-C-Sharp/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
